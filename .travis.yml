@@ -2,3 +2,7 @@ language: java
 
 script:
   - javac HelloWorld.java
+
+jdk:
+  - openjdk8
+  - openjdk9
