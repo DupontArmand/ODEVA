@@ -2,7 +2,11 @@ language: java
 
 script:
   - javac HelloWorld.java
+  - mvn package
+  - mvn compile
 
 jdk:
   - openjdk8
   - openjdk9
+
+
